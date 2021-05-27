@@ -1,0 +1,55 @@
+body{
+  font-family: Verdana,Geneva,sans-serif;
+  background-color: rgb(10, 10, 61);
+}
+
+#title{
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: solid;
+  border-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#time-selection{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 10px 0px;
+}
+
+label, select{
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-radius: 25px;
+}
+
+#button-div{
+  display: flex;
+  justify-content: center;
+  border-top: solid;
+  border-color: rgb(255, 255, 255);
+}
+
+button {
+  font-family: Verdana,Geneva,sans-serif;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: rgb(52, 52, 255);
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
